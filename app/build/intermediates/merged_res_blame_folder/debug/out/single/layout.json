@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.weather.openweather.app-mergeDebugResources-37:/layout/activity_weather.xml",
+        "source": "com.weather.openweather.app-main-40:/layout/activity_weather.xml"
+    },
+    {
+        "merged": "com.weather.openweather.app-mergeDebugResources-37:/layout/item_weather_adapter.xml",
+        "source": "com.weather.openweather.app-main-40:/layout/item_weather_adapter.xml"
+    }
+]

@@ -1,0 +1,138 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.weather.openweather"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:6:5-66
+11-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:6:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:7:5-78
+12-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:7:22-76
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+13-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:8:5-75
+13-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:8:22-73
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:9:5-81
+14-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:9:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:10:5-79
+15-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:10:22-76
+16    <uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
+16-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:11:5-80
+16-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:11:22-77
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:12:5-80
+17-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:12:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:13:5-14:40
+18-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:13:22-78
+19    <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+19-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:15:5-81
+19-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:15:22-78
+20    <uses-permission android:name="android.permission.READ_INTERNAL_STORAGE" />
+20-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:16:5-80
+20-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:16:22-77
+21    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+21-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:17:5-18:40
+21-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:17:22-79
+22    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+22-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:19:5-75
+22-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:19:22-72
+23    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+23-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:20:5-98
+23-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:20:22-95
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.weather.openweather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.weather.openweather.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:22:5-45:19
+32        android:allowBackup="true"
+32-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:23:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] C:\Users\lenovo\.gradle\caches\transforms-3\f3889f18d4f26e70cef4e17d11226053\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:dataExtractionRules="@xml/data_extraction_rules"
+34-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:24:9-65
+35        android:debuggable="true"
+36        android:fullBackupContent="@xml/backup_rules"
+36-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:25:9-54
+37        android:icon="@mipmap/weather"
+37-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:26:9-39
+38        android:label="@string/app_name"
+38-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:27:9-41
+39        android:requestLegacyExternalStorage="true"
+39-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:31:9-52
+40        android:roundIcon="@mipmap/ic_launcher_round"
+40-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:28:9-54
+41        android:supportsRtl="true"
+41-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:29:9-35
+42        android:testOnly="true"
+43        android:theme="@style/Theme.USWeatherReport"
+43-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:30:9-53
+44        android:usesCleartextTraffic="true" >
+44-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:32:9-44
+45        <activity
+45-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:34:9-44:20
+46            android:name="com.weather.openweather.mvvm.WeatherActivity"
+46-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:35:13-49
+47            android:exported="true" >
+47-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:36:13-36
+48            <intent-filter>
+48-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:37:13-40:29
+49                <action android:name="android.intent.action.MAIN" />
+49-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:38:17-69
+49-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:38:25-66
+50
+51                <category android:name="android.intent.category.LAUNCHER" />
+51-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:39:17-77
+51-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:39:27-74
+52            </intent-filter>
+53
+54            <meta-data
+54-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:41:13-43:36
+55                android:name="android.app.lib_name"
+55-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:42:17-52
+56                android:value="" />
+56-->E:\Mphasis_Task\app\src\main\AndroidManifest.xml:43:17-33
+57        </activity>
+58
+59        <provider
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+60            android:name="androidx.startup.InitializationProvider"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+61            android:authorities="com.weather.openweather.androidx-startup"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+62            android:exported="false" >
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+63            <meta-data
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+65                android:value="androidx.startup" />
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\lenovo\.gradle\caches\transforms-3\412372332f980a5c4ef0364c55a99af0\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenovo\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+67                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenovo\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+68                android:value="androidx.startup" />
+68-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\lenovo\.gradle\caches\transforms-3\a8199b6bb025d711471524267dd78014\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+69        </provider>
+70    </application>
+71
+72</manifest>
